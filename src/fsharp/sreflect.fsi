@@ -114,6 +114,7 @@ val mkFieldSet : FieldData   * TypeData list * ExprData list -> ExprData
 val mkCtorCall : CtorData * TypeData list * ExprData list -> ExprData 
 val mkMethodCall : MethodData * TypeData list * ExprData list -> ExprData 
 val mkAttributedExpression : ExprData * ExprData -> ExprData 
+val isAttributedExpression : ExprData -> bool
 val pickle : (ExprData -> byte[]) 
 
     
